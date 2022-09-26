@@ -101,3 +101,33 @@ header img {
     height: 7.4px;
     width: 12px;
 }
+
+.exchange {
+    background-color: var(--off-white);
+    height: auto;
+    padding: 59px 0;
+    width: 100%;
+}
+
+.exchange-text {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    text-align: center;
+    width: 90%;
+}
+
+.exchange-text--title {
+    color: var(--warm-black);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.exchange-text--paragraph {
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 18px;
+}
