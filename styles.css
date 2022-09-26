@@ -4,7 +4,6 @@
 3. Tipografía --> tipos, tamaños de fuente, etc
 4. Estilos visuales --> box-shadow, border-radius, gradient, etc
 5. Otros --> reglas CSS y más
-    font-family: 'Inter', sans-serif;
 */
 
 :root {
@@ -128,7 +127,7 @@ header img {
     color: var(--warm-black);
     font-size: 2.4rem;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 2.6rem;
     margin-bottom: 24px;
 }
 
@@ -136,5 +135,90 @@ header img {
     color: #757575;
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 1.8rem;
+}
+
+.exchange-tables {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.currency-table-container, .commissions-table-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: auto;
+    max-width: 300px;
+    width: 75%;
+}
+
+.currency-table, .commissions-table {
+    width: 100%;
+}
+
+.currency-table--title, .commissions-table--title {
+    align-self: flex-start;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.currency-table--title {
+    color: #ff9536;
+}
+
+.commissions-table--title {
+    color: var(--secondary-blue);
+}
+
+.currency-table--coin, .commissions-table--coin {
+    background-color: var(--just-white);
+    color: #b5b0AC;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 10px 12px;
+    width: 50%;
+}
+
+.currency-table--price, .commissions-table--price {
+    background-color: var(--just-white);
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    padding: 11px 12px;
+    text-align: center;
+    width: 50%;
+}
+
+.trending-up {
+    background: url('./assets/icons/trending-up.svg');
+}
+
+.trending-down {
+    background: url('./assets/icons/trending-down.svg');
+}
+
+.currency-table--date, .commissions-table--date {
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 8px;
+}
+
+.currency-table--date {
+    background-color: var(--soft-orange);
+}
+
+.commissions-table--date {
+    background-color: var(--soft-blue);
 }
