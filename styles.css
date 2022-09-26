@@ -145,19 +145,19 @@ header img {
     gap: 50px;
 }
 
-.table-top--left {
+.table-top__left {
     border-radius: 15px 0 0 0;
 }
 
-.table-top--right {
+.table-top__right {
     border-radius: 0 15px 0 0;
 }
 
-.table-down--left {
+.table-down__left {
     border-radius: 0 0 15px 0;
 }
 
-.table-down--right {
+.table-down__right {
     border-radius: 0 0 0 15px;
 }
 
