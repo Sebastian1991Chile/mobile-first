@@ -246,3 +246,103 @@ header img {
 .commissions-table--date {
     background-color: var(--soft-blue);
 }
+
+.benefits {
+    background-color: var(--black);
+    position: relative;
+    padding: 64px 0;
+}
+
+.benefits--icon {
+    position: absolute;
+    background: url('./assets/icons/batata.svg') center/cover no-repeat;
+    height: 24px;
+    left: calc(50% - 19px);
+    top: -13px;
+    width: 38px;
+}
+
+.benefits-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.benefits-text--title {
+    color: var(--just-white);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+.benefits-text--paragraph {
+    color: #808080;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.benefits-cards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.benefit--card{
+    align-items: flex-start;
+    background-color: var(--warm-black);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.016);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    max-width: 300px;
+}
+
+.benefit--card-icon {
+    color: var(--bitcoin-orange);
+    height: 20px;
+    width: 20px;
+}
+
+.clock {
+    background: url('./assets/icons/clock.svg') center/cover no-repeat;
+}
+
+.eye {
+    background: url('./assets/icons/eye.svg') center/cover no-repeat;
+}
+
+.dollar {
+    background: url('./assets/icons/dollar-sign.svg') center/cover no-repeat;
+}
+
+.check {
+    background: url('./assets/icons/check-circle.svg') center/cover no-repeat;
+}
+
+.benefit--card-title {
+    color: var(--just-white);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+
+.benefit--card-paragraph {
+    color: #808080;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
