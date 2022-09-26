@@ -109,6 +109,13 @@ header img {
     width: 100%;
 }
 
+.exchange-background {
+    background: url('./assets/imgs/Bitcoin.svg') center/cover no-repeat;
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+}
+
 .exchange-text {
     display: flex;
     flex-direction: column;
