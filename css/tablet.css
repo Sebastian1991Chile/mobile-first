@@ -1,0 +1,15 @@
+.benefits-cards {
+    align-items: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.benefit--card {
+    width: 40%;
+}
+
+.exchange-tables {
+    display: flex;
+    justify-content: center;
+}

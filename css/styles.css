@@ -96,7 +96,7 @@ header img {
 }
 
 .header--button span {
-    background-image: url('./assets/icons/down-arrow.svg');
+    background-image: url('../assets/icons/down-arrow.svg');
     height: 7.4px;
     width: 12px;
 }
@@ -109,7 +109,7 @@ header img {
 }
 
 .exchange-background {
-    background: url('./assets/imgs/Bitcoin.svg') center/cover no-repeat;
+    background: url('../assets/imgs/Bitcoin.svg') center/cover no-repeat;
     height: 200px;
     margin: 0 auto;
     width: 200px;
@@ -138,10 +138,17 @@ header img {
     line-height: 1.8rem;
 }
 
+.exchange-tables-mask {
+    background-color: inherit;
+    padding: 0 10%;
+    width: 100%;
+}
+
 .exchange-tables {
-    align-items: center;
     display: flex;
-    flex-direction: column;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
     gap: 50px;
 }
 
@@ -167,8 +174,8 @@ header img {
     flex-direction: column;
     gap: 24px;
     height: auto;
-    max-width: 300px;
-    width: 75%;
+    min-width: 260px;
+    scroll-snap-align: center;
 }
 
 .currency-table, .commissions-table {
@@ -221,11 +228,11 @@ header img {
 }
 
 .trending-up {
-    background: url('./assets/icons/trending-up.svg') center/cover no-repeat;
+    background: url('../assets/icons/trending-up.svg') center/cover no-repeat;
 }
 
 .trending-down {
-    background: url('./assets/icons/trending-down.svg') center/cover no-repeat;
+    background: url('../assets/icons/trending-down.svg') center/cover no-repeat;
 }
 
 .currency-table--date, .commissions-table--date {
@@ -255,7 +262,7 @@ header img {
 
 .benefits--icon {
     position: absolute;
-    background: url('./assets/icons/batata.svg') center/cover no-repeat;
+    background: url('../assets/icons/batata.svg') center/cover no-repeat;
     height: 24px;
     left: calc(50% - 19px);
     top: -13px;
@@ -316,19 +323,19 @@ header img {
 }
 
 .clock {
-    background: url('./assets/icons/clock.svg') center/cover no-repeat;
+    background: url('../assets/icons/clock.svg') center/cover no-repeat;
 }
 
 .eye {
-    background: url('./assets/icons/eye.svg') center/cover no-repeat;
+    background: url('../assets/icons/eye.svg') center/cover no-repeat;
 }
 
 .dollar {
-    background: url('./assets/icons/dollar-sign.svg') center/cover no-repeat;
+    background: url('../assets/icons/dollar-sign.svg') center/cover no-repeat;
 }
 
 .check {
-    background: url('./assets/icons/check-circle.svg') center/cover no-repeat;
+    background: url('../assets/icons/check-circle.svg') center/cover no-repeat;
 }
 
 .benefit--card-title {
@@ -350,7 +357,7 @@ header img {
 .call {
     height: 50vh;
     width: 100%;
-    background: url('./assets/imgs/bitcoinbaby2x.jpg') center/cover no-repeat;
+    background: url('../assets/imgs/bitcoinbaby2x.jpg') center/cover no-repeat;
 }
 
 .call--title {
@@ -398,6 +405,7 @@ header img {
     align-items: center;
     display: flex;
     height: 300px;
+    justify-content: initial;
     margin-top: 50px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -502,7 +510,7 @@ header img {
 }
 
 .plan--arrow {
-    background: url('./assets/icons/orange-right-arrow.svg') center/cover no-repeat;
+    background: url('../assets/icons/orange-right-arrow.svg') center/cover no-repeat;
     height: 24px;
     width: 24px;
 }
@@ -518,14 +526,14 @@ header img {
 }
 
 .plans-arrows--left {
-    background: url('./assets/icons/left-arrow.svg') center/cover no-repeat;
+    background: url('../assets/icons/left-arrow.svg') center/cover no-repeat;
     display: inline-block;
     height: 12px;
     width: 12px;
 }
 
 .plans-arrows--right {
-    background: url('./assets/icons/right-arrow.svg') center/cover no-repeat;
+    background: url('../assets/icons/right-arrow.svg') center/cover no-repeat;
     display: inline-block;
     height: 12px;
     width: 12px;
