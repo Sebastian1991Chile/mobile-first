@@ -357,7 +357,7 @@ header img {
 .call {
     height: 50vh;
     width: 100%;
-    background: url('../assets/imgs/bitcoinbaby2x.jpg') center/cover no-repeat;
+    background: url('../assets/imgs/bitcoinbaby.jpg') center/cover no-repeat;
 }
 
 .call--title {
@@ -560,4 +560,9 @@ header img {
     font-weight: 500;
     line-height: 1.8rem;
     text-decoration: none;
+}
+
+.footer-logo img {
+    height: 50px;
+    width: 64px;
 }

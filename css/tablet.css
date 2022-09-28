@@ -13,3 +13,7 @@
     display: flex;
     justify-content: center;
 }
+
+.call {
+    background: url('../assets/imgs/bitcoinbaby2x.jpg') center/cover no-repeat;
+}
