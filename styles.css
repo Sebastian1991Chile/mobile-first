@@ -508,7 +508,7 @@ header img {
 }
 
 .plans-arrows {
-    display: flex;
+    display: none;
     justify-content: space-between;
     left: calc(50% - 150px);
     margin: 0 auto;
@@ -529,4 +529,27 @@ header img {
     display: inline-block;
     height: 12px;
     width: 12px;
+}
+
+.footer {
+    align-items: center;
+    background-color: var(--bitcoin-orange);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+
+.footer-social a {
+    color: var(--just-white);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-decoration: none;
 }
